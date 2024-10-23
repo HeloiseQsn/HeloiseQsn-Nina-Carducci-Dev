@@ -119,7 +119,7 @@ nav ul li img {
 	padding-bottom: 100%;
 
 }
-.gallery-item {
+.gallery-item, .py-3 picture img {
 	position: absolute;
 	width: 100%;
 	height: 100%;
