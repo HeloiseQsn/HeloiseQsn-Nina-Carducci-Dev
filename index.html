@@ -112,13 +112,15 @@
 	<body>
 		<header>
 			<h1>Nina Carducci</h1>
-			<nav>   
+			<nav role="navigation" aria-label="Menu principal">   
 				<ul>
-					<li><a href="#about">À propos</a></li>
-					<li><a href="#gallery">Galerie</a></li>
-					<li><a href="#services">Service</a></li>
-					<li><a href="#contact">Contact</a></li>
-					<li><a href="https://www.instagram.com/ninacarducci.photo/?hl=fr" target="_blank"><img src="assets/images/instagram.png" alt="Logo instagram"></a></li>
+					<li><a href="#about" aria-label="À propos de moi">À propos</a></li>
+					<li><a href="#gallery" aria-label="Voir la galerie">Galerie</a></li>
+					<li><a href="#services" aria-label="Mes services">Services</a></li>
+					<li><a href="#contact" aria-label="Me contacter">Contact</a></li>
+					<li><a href="https://www.instagram.com/ninacarducci.photo/?hl=fr" target="_blank">
+						<img src="assets/images/instagram.png" alt="Logo Instagram" aria-hidden="true">
+					</a></li>
 				</ul>
 			</nav>
 		</header>
@@ -161,13 +163,13 @@
 						</picture>
 					</div>
 				</div>
-				<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+				<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev" aria-label="Bouton précédent">
 					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
 					<span class="visually-hidden">Previous</span>
 				</button>
-				<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+				<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next" aria-label="bouton suivant">
 					<span class="carousel-control-next-icon" aria-hidden="true"></span>
-					<span class="visually-hidden">Next</span>
+					<span class="visually-hidden" aria-hidden="true">Next</span>
 				</button>
 			</div>
 		</div>
