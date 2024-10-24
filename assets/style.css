@@ -112,11 +112,14 @@ nav ul li img {
 	margin-bottom: 0 !important;
 	padding: 0;
 }
+.visually-hidden {
+	opacity: 1; 
+	color: #000
+}
 .item-column::after{
 	content: "";
 	display: block;
 	padding-bottom: 100%;
-
 }
 .gallery-item, .py-3 picture img {
 	position: absolute;
