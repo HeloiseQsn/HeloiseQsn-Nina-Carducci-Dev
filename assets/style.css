@@ -123,7 +123,7 @@ nav ul li img {
 }
 .gallery-item, .py-3 picture img {
 	position: absolute;
-	width: 100%;
+	width: calc(100% - 8px);
 	height: 100%;
 	object-fit: cover;
 	padding: .5em;
@@ -203,6 +203,7 @@ nav ul li img {
 
 #contact .container {
 	display: flex;
+	align-items: center;
 }
 .picture.right::before {
 	content: ' ';
@@ -296,7 +297,6 @@ input[type="submit"] {
 	.service__description{
 		margin-bottom: 1em;
 	}
-
 	#services .container::before{
 		width: 30%;
 		height: 100%;
@@ -305,7 +305,6 @@ input[type="submit"] {
 		left: auto;
 		z-index: 0;
 	}
-
 	#contact .container {
 		flex-direction: column;
 	}
@@ -319,6 +318,11 @@ input[type="submit"] {
 		bottom: 0;
 		right: 0;
 		z-index: -1;
+	}
+	.form-container {
+		display:flex;
+		flex-direction: column;
+		align-items: center;
 	}
 }
 
