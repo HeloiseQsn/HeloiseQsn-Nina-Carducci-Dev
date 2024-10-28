@@ -17,31 +17,25 @@ header {
 	padding-block: 30px;
 	align-items: center;
 }
-
 h1 {
 	font-size: 26px;
 }
-
 nav ul {
 	display: flex;
 	list-style-type: none;
 	font-size: 14px;
 	margin-bottom: 0;
 }
-
 nav li {
 	padding-inline: 10px;
 }
-
 nav a {
 	text-decoration: none;
 	color: #000
 }
-
 nav ul li img {
 	width: 20px;
 }
-
 #about {
 	display: flex;
 	background-color: #F6D2B8;
@@ -49,7 +43,6 @@ nav ul li img {
 	padding-block: 100px;
 	position: relative;
 }
-
 .picture.left::before {
 	content: ' ';
 	background-color: #E5975F;
@@ -60,16 +53,13 @@ nav ul li img {
 	left: 0;
 	z-index: -1;
 }
-
 .picture {
 	flex: 1;
 	margin: 0 20px;
 	z-index: 0;
 }
-
 .picture img {
 	width: 100%;
-
 }
 #about-me {
 	flex: 2
@@ -89,9 +79,11 @@ nav ul li img {
 	width: 80%;
 	font-size: 14px;
 }
-
 #gallery {
 	/*	min-height: 100vh; */
+}
+.gallery ul li {
+	cursor: pointer;
 }
 .title{
 	text-align: center;
@@ -137,7 +129,6 @@ nav ul li img {
 	display: flex;
 	font-size: 24px;
 }
-
 .quote {
 	font-family: 'Spectral';
 	font-style: italic;
@@ -157,7 +148,6 @@ nav ul li img {
 	font-weight: 800;
 	font-size: 22px;
 }
-
 #services {
 	margin: auto;
 	background-color: #A8D5D8 ;
@@ -173,14 +163,12 @@ nav ul li img {
 	left: 0;
 	z-index: 0;
 }
-
 #services .container {
 	justify-content: space-between;
 	display: flex;
 	padding : 2em 0;
 
 }
-
 .service {
 	background-color: white;
 	max-width: 390px;
@@ -192,7 +180,6 @@ nav ul li img {
 	justify-content: space-between;
 	z-index: 1;
 }
-
 #contact {
 	margin: auto;
 	background-color: #D8D3A8 ;
@@ -200,7 +187,6 @@ nav ul li img {
 	padding-inline: 100px;
 	padding-block: 100px;
 }
-
 #contact .container {
 	display: flex;
 	align-items: center;
@@ -217,7 +203,6 @@ nav ul li img {
 }
 .form-container {
 	flex : 2;
-
 }
 form {
 	display: flex;
@@ -225,7 +210,6 @@ form {
 	width: 70%;
 	align-items: flex-start;
 }
-
 form input {
 	width: 100%;
 	background-color: transparent;
@@ -233,7 +217,6 @@ form input {
 	height: 2.5em;
 	margin-bottom: 20px;
 }
-
 form textarea {
 	width: 100%;
 	background-color: transparent;
@@ -267,7 +250,6 @@ input[type="submit"] {
 @media all and (max-width: 1000px) {
 	#about{
 		flex-direction: column;
-
 	}
 	.picture {
 		width: 50%;
