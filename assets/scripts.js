@@ -22,11 +22,8 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 
         const targetId = this.getAttribute('href').substring(1);
         const targetElement = document.getElementById(targetId);
-        const offset = 100; // Ajuste cette valeur selon la hauteur de ton header
+        const offset = 100; 
 
-        window.scrollTo({
-            top: targetElement.offsetTop - offset,
-            behavior: 'smooth'
-        });
+        window.scrollTo(0, targetElement.offsetTop - offset);
     });
 });
