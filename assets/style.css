@@ -107,6 +107,7 @@ nav ul li img {
 .nav-pills .nav-link.active-tag, .nav-pills .show > .nav-link {
 	background-color: #BEB45A;
 	border-radius:0 ;
+	color:black;
 }
 .nav-pills .nav-link {
 	color: #000
